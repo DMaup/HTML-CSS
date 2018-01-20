@@ -1,0 +1,27 @@
+body{
+	background: grey;
+}
+div{
+	margin-right:10px;
+}
+img{
+	background-color:white;
+	padding:20px;
+}
+.bandeau{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	color:white;
+	padding:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	display:none;
+}
+.block{
+	float:left;
+	position:relative;
+}
+div.block:hover div.bandeau{
+	display:block;
+}

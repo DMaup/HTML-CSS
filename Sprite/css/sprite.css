@@ -1,0 +1,35 @@
+body{
+	background-color:grey;
+}
+div{
+	float: left;
+	width:84px;
+	height:84px;
+}
+.p1 {
+	background:url("../i/social-sprite.png")-0px -168px;
+	width:84px;
+	height:84px;
+	margin:20px;
+}
+.p2 {
+	background:url("../i/social-sprite.png")-672px -168px;
+	width:84px;
+	height:84px;
+	margin:20px;
+}
+.p3 {
+	background:url("../i/social-sprite.png")-252px -168px;
+	width:84px;
+	height:84px;
+	margin:20px;
+}
+.p1:hover {
+	background:url("../i/social-sprite.png")-0px -84px;
+}
+.p2:hover {
+	background:url("../i/social-sprite.png")-672px -84px;
+}
+.p3:hover {
+	background:url("../i/social-sprite.png")-252px -84px;
+}

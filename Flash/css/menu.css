@@ -1,0 +1,64 @@
+form{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:"arial";
+}
+ol {
+	background-image:url("../i/bg_menu.jpg");
+	background-repeat: repeat-x;
+	list-style-type: none;
+	height:38px;
+	border-radius:5px 5px 5px 5px;
+	padding:0;
+
+}
+li {
+	float:left;
+	font-size:20px;
+	color:white;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height:38px;
+	background-image:url("../i/separateur.jpg");
+	background-repeat:repeat-y;
+	background-position:right;
+}
+li:first-child{
+	padding-top:4px;
+	padding-left:4px;
+	background-position:center;
+}
+li:last-child {
+	float:right;
+	padding-right:4px;
+	background:none;
+}
+a{
+	width:30px;
+	height:30px;
+	overflow:hidden;
+	text-indent:-30000px;
+	display:block;
+	background:url("../i/home.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:30px 30px;
+}
+.search{
+	border-radius:5px 5px 5px 5px;
+	margin-top: 8px;
+	float:right;
+	padding-right:20px;
+}
+.loupe{
+	border-radius:5px 5px 5px 5px;
+	height:20px;
+	width:20px;
+	margin-top: 8px;
+	margin-right: 12px;
+	background:none;
+	position:absolute;
+	right:0px;
+}

@@ -1,0 +1,28 @@
+.conteneur {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.bloc{
+	background-color:red;
+	width:300px;
+}
+.bloc img{
+	height:188px;
+	width:300px;
+}
+.genre{
+
+}
+.time{
+
+}
+.heure{
+	background:url("../i/time.png") no-repeat;
+	background-size:20px;
+	padding-left:20px;
+}
+.lib{
+
+}

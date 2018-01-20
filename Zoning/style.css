@@ -1,0 +1,11 @@
+div {
+    font-family: "Trebuchet MS";
+    font-size:1.8em;
+    background-color:#cccccc;
+    width: 150px;
+    height: 237px;
+    float:left;
+	margin:20px;
+	text-align:center;
+	line-height:237px;
+}

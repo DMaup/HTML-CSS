@@ -1,0 +1,4 @@
+- Le fond du body est en #333.
+- Afficher les icones Noir&Blanc dans l'ordre : Facebook / Twitter / Google
+- Chaque icone fait 84 x 84px
+- Lors du passage de la souris, l'icone s'éclaire avec la version colorisé.

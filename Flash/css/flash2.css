@@ -1,0 +1,14 @@
+section h1{
+	font-weight:bold;
+	color:maroon;
+}
+section p{
+	color:red;
+}
+aside h1{
+	font-weight:bold;
+	color:blue;
+}
+aside p{
+	color:green;
+}

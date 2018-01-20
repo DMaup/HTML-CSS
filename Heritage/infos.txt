@@ -1,0 +1,1 @@
+Au survol d'une des 3 images par la souris, un bandeau noir avec transparence apparait sur l'image correspondate (voir rendu_hover.jpg)

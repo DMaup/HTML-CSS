@@ -1,0 +1,21 @@
+ol {
+	list-style-type: none;
+	background-color:dimgrey;
+	padding:20px;
+}
+li {
+	background-color:lightgrey;
+	display:inline;
+	padding:5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	color:grey;
+
+}
+li:last-child {
+	float:right;
+}
+li:hover {
+	background-color:red;
+}

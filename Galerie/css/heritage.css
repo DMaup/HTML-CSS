@@ -1,0 +1,19 @@
+div{
+	float:left;
+	width:160px;
+	height:160px;
+}
+.h {
+	background-image:url("../i/frame-horizontal.gif");
+}
+.v {
+	background-image:url("../i/frame-vertical.gif");
+}
+div.h img{
+	padding-left:16px;
+	padding-top:32px;
+}
+div.v img{
+	padding-left:32px;
+	padding-top:16px;
+}

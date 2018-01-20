@@ -1,0 +1,23 @@
+section{
+	background-color:grey;
+}
+#groupa header{
+	font-weight:bold;
+	text-transform: uppercase;
+}
+#groupb header{
+	font-style:italic;
+	text-transform: uppercase;
+}
+#groupc header {
+	text-decoration:underline;
+}
+#groupa .urgent{
+	color:red;
+}
+#groupb .urgent{
+	color:green;
+}
+#groupc .urgent{
+	color:blue;
+}

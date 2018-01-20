@@ -1,0 +1,26 @@
+article{
+	padding:10px;
+	border:2px dashed #CCC;
+}
+div{
+	height:270px;
+	width:270px;
+}
+.bloc1 {
+	background:red;
+}
+.bloc2 {
+	background:blue;
+}
+.bloc3 {
+	background:green;
+}
+.conteneur {
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.conteneur :nth-child(3) {
+
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab');
+a:link {color: #FFFFFF;}
+a:visited {color: #C0C0C0;}
+a:hover {color: #174B80;}
+a:active {color: #174B80;}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+div{
+	width:100%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+div header {
+	overflow:hidden; /* gere le dépassement de marge du dernier paragraphe du bloc*/
+}
+header{
+	
+	width:90%;
+	padding-left:5%;
+	padding-right:5%;
+	background:radial-gradient(#174B80, #C0C0C0); /*rgb(23,75,128);*/
+
+	color:white;
+	text-align: center;
+}
+header img{
+	width:20%;
+	border:5px solid #C0C0C0; /*rgb(192,192,192);*/
+	border-radius:100% 100% 100% 100%;
+}
+header h1{
+	font-family: 'Oswald', sans-serif;
+}
+aside{
+	width:25%;
+	background:#174B80; /* #216CB8; rgb(33,108,184); */
+	color:white;
+	flex:left;
+	padding-left:5%;
+}
+aside h2{
+	font-family: 'Oswald', sans-serif;
+}
+aside h3{
+	padding-left:10%;
+	font-style:normal;
+}
+aside h3 img{
+	width:10%;
+}
+aside h3 ul {
+	padding-left:5%;
+}
+article{
+	width:65%;
+	background:#C0C0C0; /*rgb(192,192,192);*/
+	flex:left;
+	padding-left:5%;
+}
+article h2{
+	font-family: 'Oswald', sans-serif;
+}
+article h3{
+	font-style: bold;
+	padding-left:10%;
+}
+article h4{
+	font-style: italic;
+	padding-left:15%;
+}
+article h5{
+	padding-left:20%;
+}
+
+#corps {
+	display:flex;
+}

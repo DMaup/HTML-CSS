@@ -1,0 +1,5 @@
+- Le site est centré.
+- la largeur du site doit faire 990px maximum.
+- Les images sont affichées en 300x188.
+- Les photos, les titres, les catégories (bleu clair) sont cliquables.
+- Les seules images à être visible dans votre code HTML sont les images de contenus (l'image d'illustration qui accompagne chaque article)

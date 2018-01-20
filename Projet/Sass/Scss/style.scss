@@ -1,0 +1,47 @@
+@import 'vars';
+// systeme de fonction avec parametres
+@mixin carre($size,$color){
+    width:$size;
+    height:$size;
+    background-color:$color;
+}
+h1 {
+    color:yellow;
+}
+h2 {
+    color:$blue;
+}
+div {
+    color:$blue;
+    font-size: $baseFontSize;
+}
+/* 
+gestion de l'héritage
+*/
+.container {
+    .item1 {
+        color:$blue;
+        &:hover{
+            color:purple;
+        }
+        &.bis{
+            font-size:16px;
+        }
+    }
+    .item2 {
+        color:$red;
+        p{
+            color:#000;
+        }
+    }
+}
+.forme {
+    @include carre(100px, green);
+}
+.alert {
+    //extend copie les propriétés d'un autre élément
+    @extend .forme;
+    border:5px solid black;
+}
+@import 'Responsive/media_960';
+@import 'Responsive/media_520';
